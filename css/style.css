@@ -1,0 +1,128 @@
+h2 {
+    font-size: 5rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+.historia {
+    background-image: url("./../img/paisaje.jpg");
+    /* You must set a specified height */
+    background-position: center;
+    /* Center the image */
+    background-repeat: no-repeat;
+    /* Do not repeat the image */
+    background-size: cover;
+    /* Resize the background image to cover the entire container */
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.historia__side-a {
+    width: 40%;
+}
+
+.historia__side-b {
+    width: 60%;
+}
+
+.historia__side-b p {
+    background-color: rgba(23, 49, 80, 0.6);
+    padding: 20px;
+    font-size: 1rem;
+    text-align: justify;
+    padding-right: 10%;
+    margin-left: 10%;
+    color: #FAFAFA;
+}
+
+.presidentes {
+    background-color: #173150;
+    display: flex;
+    padding-top: 50px;
+}
+
+.presidentes__side-b {
+    width: 40%;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.presidentes_side-a {
+    width: 60%;
+    padding-left: 10%;
+}
+
+.presidentes_side-a p {
+    padding: 20px;
+    font-size: 1rem;
+    text-align: justify;
+    color: #FAFAFA;
+    padding-bottom: 50px;
+}
+
+.presidente-img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-bottom: 0px;
+}
+
+.directiva {
+    background-color: #FFFFFF;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.directiva__side-a {
+    width: 40%;
+    padding-left: 10%;
+}
+
+.directiva_side-b {
+    width: 60%;
+}
+
+.directiva_side-b p {
+    padding: 20px;
+    font-size: 1rem;
+    text-align: justify;
+    padding-right: 10%;
+    margin-left: 10%;
+    color: #173150;
+}
+
+.directiva-img {
+    width: 90%;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+}
+
+.title-yellow {
+    color: #FED801;
+}
+
+.title-blue {
+    color: #173150;
+}
+
+.footer {
+    background-color: #173150;
+    height: 200px;
+}
+
+.btn-about {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Dosis', sans-serif;
+}
